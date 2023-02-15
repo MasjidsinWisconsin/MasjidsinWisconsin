@@ -1,0 +1,96 @@
+#map{
+    height: 100vh;
+    width: 100%;
+}
+
+.masjidimage{
+    height: 172px;
+    width: 180px;
+    border: 1.9px solid rgb(245, 226, 13);
+    border-radius: 50%;    
+}
+
+.leaflet-popup-content img {
+    margin: 0 auto;
+    display: block;
+}
+
+.header{
+    text-align: center;
+    font-size: 16px;
+    margin-top: -25px;
+    font-weight: bold;
+}
+
+.leaflet-popup-content {
+    width: auto;
+    height: auto;
+    background: rgb(5, 65, 80);
+    color: white;
+    border: 2px solid rgb(235, 220, 11);
+    margin: 0;
+    border-radius: 11px;
+    padding: 8px;
+    line-height: 1.7;
+}
+
+.leaflet-popup-content-wrapper {
+    background: rgb(5, 65, 80);
+    padding: 0%;
+}
+
+.leaflet-container a.leaflet-popup-close-button{
+    color: white;
+}
+
+.prayertime{
+    color: rgb(248, 248, 13);
+}
+
+.headings{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.leaflet-popup-content p{
+    margin-top: 2px;
+    margin-bottom: 5px;
+    color: rgb(207, 233, 11);
+}
+
+.leaflet-control-attribution.leaflet-control {
+    background: rgb(21, 21, 20);
+    color: rgb(255, 255, 255);
+    height: 28px;
+    font-size: 13px;
+    border: 1px solid red;
+    padding-top: 3px;
+    margin-right: 1px;
+}
+
+.leaflet-control-scale-line {
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    margin-bottom: 35px;
+    margin-left: 5px;
+    height:19px;
+    text-shadow: 1px 1px rgb(5, 5, 5);
+
+}
+
+#info_text{
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    border: 1px solid red;
+    width: 330px;
+    height: 28px;
+    background-color: rgb(2, 35, 35);
+    opacity: 0.80;
+    color: white;
+    margin-right: 24px;
+    border-radius: 5px;
+    margin-top: 25px;
+    
+}
