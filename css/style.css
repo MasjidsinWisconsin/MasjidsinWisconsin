@@ -89,8 +89,29 @@
     background-color: rgb(2, 35, 35);
     opacity: 0.80;
     color: white;
-    margin-right: 24px;
+    margin-right: 22px;
     border-radius: 5px;
     margin-top: 25px;
     
+}
+
+.madinacommunitycenter{
+    color: orange;
+}
+
+/* give a background color when hovered on icon */
+.leaflet-marker-icon:hover{
+    background-color: rgb(95, 157, 238);
+    border-radius: 5px;
+    border: 1px solid rgb(177, 12, 177);
+
+}
+
+/* change the font size for the leaflet attributes */
+.authorattributes{
+    font-size: 9px;
+}
+
+.attributs{
+    font-size: 10px;
 }
