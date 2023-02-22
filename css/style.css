@@ -61,18 +61,18 @@
 .leaflet-control-attribution.leaflet-control {
     background: rgb(21, 21, 20);
     color: rgb(255, 255, 255);
-    height: 28px;
+    height: auto;
     font-size: 13px;
     border: 1px solid red;
-    padding-top: 3px;
-    margin-right: 1px;
+    margin-right: 3px;
+    margin-bottom: 20px;
 }
 
 .leaflet-control-scale-line {
     background-color: black;
     color: white;
     border: 1px solid red;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
     margin-left: 5px;
     height:19px;
     text-shadow: 1px 1px rgb(5, 5, 5);
@@ -89,7 +89,7 @@
     background-color: rgb(2, 35, 35);
     opacity: 0.80;
     color: white;
-    margin-right: 22px;
+    margin-right: 20px;
     border-radius: 5px;
     margin-top: 25px;
     
@@ -109,9 +109,15 @@
 
 /* change the font size for the leaflet attributes */
 .authorattributes{
-    font-size: 9px;
+    font-size: 10px;
 }
 
 .attributs{
     font-size: 10px;
+}
+
+
+
+.leaflet-control-zoom.leaflet-bar.leaflet-control{
+    margin-top: 65px;
 }
