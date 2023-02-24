@@ -13,6 +13,7 @@ var googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
 
 });
 
+
 // Add the GeoJason file and read the popup function (masjidata)
 var geojason = L.geoJSON(masjidsinwisconsin, {
     onEachFeature:masjidata,
