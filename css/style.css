@@ -66,6 +66,7 @@
     border: 1px solid red;
     margin-right: 3px;
     margin-bottom: 20px;
+    display: none !important;
 }
 
 .leaflet-control-scale-line {
@@ -121,15 +122,21 @@
 .leaflet-control-zoom.leaflet-bar.leaflet-control{
     margin-top: 65px;
 }
-#map {
-    width: 100%;
-    height: 500px;
-    position: relative;
-}
+
 
 #copyright {
     text-align: center;
-    margin-top: 20px;
-    color: #fff;
+    margin-top: 0px;
+    color: #000000;
     font-size: 15px;
+    background-image: linear-gradient(80deg, #d3f8e2, #d3f8e2,#d3f8e2 );
+    height: 90px;
+    padding-top: 50px;
+    opacity: 0.90;
+
+}
+
+.madinahcommunitycentermoved{
+    font-size: 11px;
+    color: rgb(255, 255, 255);
 }
