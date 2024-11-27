@@ -6,7 +6,7 @@ var googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
     minZoom:2,
     maxZoom: 20,
     subdomains:['mt0','mt1','mt2','mt3'],
-    attribution:'<span class="authorattributes"> Data Source:  <a href="https://www.google.com/maps" target=_blank>  <a href=" Google Map"> Google Map </a></a>| Mapped By: Abdullah Ameen | <a href="mailto:abdullah.ameenn@gmail.com">Contact me</a> </span>' }).addTo(map);
+    attribution:'' }).addTo(map);
 
     var masjid = new L.Icon({iconUrl:'img/Masjid.png',
     iconSize: [72, 55],
