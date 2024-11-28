@@ -1,5 +1,7 @@
 // Initiate the leaflet map and set the main view.
-var map = L.map('map').setView([43.0672, -89.4211], 11);
+var map = L.map('map', {
+  scrollWheelZoom: false
+}).setView([43.0672, -89.4211], 11);
 
 // Add the til layer or a base map layer.
 var googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{
